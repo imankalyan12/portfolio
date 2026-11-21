@@ -413,3 +413,61 @@ button.pill{
   .pill,.pill::before,.viewbtn{transition:none}
   .pill:hover,.viewbtn:hover{transform:none}
 }
+
+
+/* ===== Mobile Horizontal Overflow & Zoom Fix ===== */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+section {
+  overflow-x: clip;
+}
+
+.intro {
+  overflow: hidden;
+}
+
+@media (max-width: 860px) {
+  /* Remove double horizontal padding in the hero */
+  .hero-in {
+    padding: 0;
+  }
+
+  /* Keep navbar comfortably inside narrow screens */
+  nav.bar {
+    width: calc(100% - 24px);
+    padding: 8px 10px 8px 16px;
+  }
+
+  /* Give the skill orbit extra margin so outer pills don't clip */
+  .orbit {
+    width: min(300px, 66vw);
+  }
+  .orbit .node {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  /* Prevent long skill titles from stretching the 2-column grid */
+  .skills .glass {
+    min-width: 0;
+    padding: 22px 12px;
+  }
+  .skills b {
+    font-size: 18px;
+    overflow-wrap: break-word;
+  }
+
+  /* Keep the intro name inside the screen on narrow phones */
+  .intro-name {
+    letter-spacing: .28em;
+    padding-left: .28em;
+  }
+  @keyframes introTrack {
+    from { letter-spacing: .55em; }
+    to { letter-spacing: .28em; }
+  }
+}
