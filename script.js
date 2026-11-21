@@ -90,14 +90,14 @@ o.addEventListener("pointerup",end);o.addEventListener("pointercancel",end);
 /* Reusable pop-up: call showPopup({...}) from anywhere */
 var PROJECTS={
   java:{title:"Java projects",text:"Click a project to open it.",items:[
-    {name:"Library Management System",tag:"Java · OOP",link:"https://github.com/your-username/library-system"},
-    {name:"Bank Account Simulator",tag:"Java · Classes",link:"https://github.com/your-username/bank-app"},
-    {name:"Tic-Tac-Toe Game",tag:"Java · Logic",link:"https://github.com/your-username/tic-tac-toe"}
+    {name:"Library Management System",tag:"Java · OOP",link:"https://imankalyan12.github.io/404-error---space/"},
+    {name:"Bank Account Simulator",tag:"Java · Classes",link:"https://imankalyan12.github.io/404-error---space/"},
+    {name:"Tic-Tac-Toe Game",tag:"Java · Logic",link:"https://imankalyan12.github.io/404-error---space/"}
   ]},
   python:{title:"Python projects",text:"Click a project to open it.",items:[
-    {name:"Face Detection App",tag:"Python · OpenCV",link:"https://github.com/your-username/face-detection"},
-    {name:"Image Filters and Edge Detection",tag:"Python · OpenCV",link:"https://github.com/your-username/image-filters"},
-    {name:"Number Guessing Game",tag:"Python",link:"https://github.com/your-username/number-guessing-game"}
+    {name:"Face Detection App",tag:"Python · OpenCV",link:"https://imankalyan12.github.io/404-error---space/"},
+    {name:"Image Filters and Edge Detection",tag:"Python · OpenCV",link:"https://imankalyan12.github.io/404-error---space/"},
+    {name:"Number Guessing Game",tag:"Python",link:"https://imankalyan12.github.io/404-error---space/"}
   ]}
 };
 (function(){
@@ -606,7 +606,7 @@ var NAME="Bit"; /* change the robot's name here */
 var tips=[
   "Hey! Press the ♪ button for space sounds.",
   "Need a resume? Hit “Download CV” in the footer.",
-  "Secret code: ↑ ↑ ↓ ↓ ← → ← → B A",
+  "Secret code:→  *#0*#",
   "Iman is open to internships. Say hello!",
   "Try dragging the skill circle. It spins!"
 ];
